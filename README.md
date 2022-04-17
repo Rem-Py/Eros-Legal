@@ -48,6 +48,30 @@ Other ways of support may be provided but aren't guaranteed.
 
 ## Privacy Policy
 
+### Stored Information
+The bot stores the following information
+when a user registers:
+```
+time_of_registration
+user_id
+sexuality
+pronouns
+dominance
+```
+when a server sets up a network:
+```
+network_id
+channel_id
+webhook_url
+```
+when a user uses any restrain commands:
+```
+server_id
+user_id
+type_of_restraint
+```
+for the bot's funcationality and to refer a user when commands are used the user's id maybe stored temporarily in the cache or in the database depending on the command's usages
+
 ### Updating Data:
 The data may be updated when using specific commands.
 Updating data will require the input of an end user, and data that can be seen as sensitive, such as content of a message, may need to be stored when using certain commands.
@@ -71,4 +95,4 @@ For security reasons will we ask you to provide us with proof of ownership of th
     The automatic removal of data has certain limitations that we cannot fix or avoid.
     Limitations include, but aren't limited to, downtime of the bot due to maintenance or technical issues at our hosting provider or Discord Inc.
 
-    In such events can you request manual removal through email under the above mentioned conditions.
+    In such events can you request manual removal through the support server under the above mentioned conditions.
